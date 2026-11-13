@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Admissions | Excellent Heights Academy -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Admission requirements, procedure, documents and application form.">
+<title>Admissions | Excellent Heights Academy</title>
+<link rel="icon" href="images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Header and navigation (same on every page) -->
+<header class="site-header">
+<div class="container bar">
+<a href="index.html" class="brand"><img src="images/logo.png" alt="Excellent Heights Academy crest" width="52" height="52"><span>Excellent Heights Academy</span></a>
+<nav aria-label="Main navigation"><ul class="menu"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="academics.html">Academics</a></li><li><a href="admission.html" class="active" aria-current="page">Admissions</a></li><li><a href="activities.html">Activities</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</div>
+</header>
+<main>
+<section class="page-title"><div class="container"><h1>Admissions</h1><p>Everything you need to apply to Excellent Heights Academy.</p></div></section>
+<section class="container two">
+<div><h2>Requirements</h2><ul><li>Child must meet the age requirement for the chosen class.</li><li>Pass a short entrance assessment (Primary 1 and above).</li><li>Present the previous school report, where applicable.</li><li>Parents agree to follow school rules and policies.</li></ul>
+<h2>How to apply</h2><ol><li>Read the requirements.</li><li>Complete the application form on this page.</li><li>Submit the required documents at the school office.</li><li>Attend the entrance assessment and interview.</li><li>Receive your admission letter and pay the fees.</li></ol>
+<h2>Required documents</h2><ul><li>Birth certificate or age declaration</li><li>Two passport photographs</li><li>Previous school report card</li><li>Immunisation record</li></ul>
+<p class="notice"><strong>Application deadline:</strong> <time datetime="2027-01-31">31 January 2027</time></p></div>
+<form id="admission-form" action="#" method="post">
+<h2>Admission application form</h2>
+<!-- Front-end demo only: no backend, so nothing is actually sent -->
+<label for="sname">Student's full name</label><input type="text" id="sname" name="sname" required>
+<label for="dob">Date of birth</label><input type="date" id="dob" name="dob" required>
+<fieldset><legend>Gender</legend><label class="inline"><input type="radio" name="gender" value="female" required> Female</label> <label class="inline"><input type="radio" name="gender" value="male"> Male</label></fieldset>
+<label for="class">Class applying for</label><select id="class" name="class" required><option value="">Select a class</option><optgroup label="Early years"><option>Creche</option><option>Nursery 1</option><option>Nursery 2</option><option>Nursery 3</option></optgroup><optgroup label="Primary"><option>Primary 1</option><option>Primary 2</option><option>Primary 3</option><option>Primary 4</option><option>Primary 5</option><option>Primary 6</option></optgroup><optgroup label="Junior secondary"><option>JSS 1</option><option>JSS 2</option><option>JSS 3</option></optgroup><optgroup label="Senior secondary"><option>SS 1</option><option>SS 2</option><option>SS 3</option></optgroup></select>
+<label for="pname">Parent's full name</label><input type="text" id="pname" name="pname" required>
+<label for="pemail">Parent's email</label><input type="email" id="pemail" name="pemail" required>
+<label for="pphone">Parent's phone number</label><input type="tel" id="pphone" name="pphone" required>
+<label for="addr">Residential address</label><textarea id="addr" name="addr" rows="3" required></textarea>
+<label for="prev">Previous school</label><input type="text" id="prev" name="prev">
+<label for="start">Preferred start date</label><input type="date" id="start" name="start" required>
+<label class="inline check"><input type="checkbox" name="declare" required> I declare that the information given is true and complete.</label>
+<button type="submit" class="btn">Submit application</button>
+</form></section>
+</main>
+<footer class="site-footer">
+<div class="container foot">
+<div><h5>Excellent Heights Academy</h5><p>Knowledge, character and excellence from creche to senior secondary.</p></div>
+<div><h6>Quick links</h6><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="academics.html">Academics</a></li><li><a href="admission.html">Admissions</a></li><li><a href="activities.html">Activities</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><h6>Follow us</h6><ul><li><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://wa.me/2348000000001" target="_blank" rel="noopener">WhatsApp</a></li></ul></div>
+</div>
+<p class="copy">&copy; 2026 Excellent Heights Academy. All rights reserved.</p>
+</footer>
+</body>
+</html>
